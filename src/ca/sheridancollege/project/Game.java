@@ -14,21 +14,21 @@ import java.util.ArrayList;
  */
 public abstract class Game 
 {
-    private final String gameName;//the title of the game
+    private final String gameWar;//the title of the game
     private ArrayList <Player> players;// the players of the game
     
-    public Game(String givenName)
+    public Game(String war)
     {
-        gameName = givenName;
+        gameWar = war;
         players = new ArrayList();
     }
 
     /**
      * @return the gameName
      */
-    public String getGameName() 
+    public String getGameWar() 
     {
-        return gameName;
+        return gameWar;
     }
     
      /**
